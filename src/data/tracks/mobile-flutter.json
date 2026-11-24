@@ -1,0 +1,260 @@
+{
+  "id": "mobile-flutter",
+  "title": "Mobile Development (Flutter)",
+  "description": "Build cross-platform mobile UIs with Flutter widgets, navigation, and state.",
+  "level": "beginner",
+  "stages": [
+    {
+      "id": "flutter-intro",
+      "order": 1,
+      "title": "Flutter & Dart Intro",
+      "goal": "Explain Flutter’s widget model and run a hello app.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "flutter-intro-v1",
+          "title": "Flutter Course for Beginners",
+          "youtubeId": "VPvVD8t02U8",
+          "youtubeUrl": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+          "channel": "freeCodeCamp.org",
+          "language": "en",
+          "durationMin": 120
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "In Flutter, almost everything UI-related is a…",
+            "options": [
+              "Widget",
+              "Table",
+              "Packet",
+              "Servlet"
+            ],
+            "answerIndex": 0,
+            "videoRef": "VPvVD8t02U8",
+            "explanation": "UI is composed of widgets."
+          },
+          {
+            "text": "Dart is…",
+            "options": [
+              "The language used with Flutter",
+              "A CSS preprocessor",
+              "A database engine",
+              "A networking cable"
+            ],
+            "answerIndex": 0,
+            "videoRef": "VPvVD8t02U8",
+            "explanation": "Flutter apps are written in Dart."
+          },
+          {
+            "text": "Hot reload helps you…",
+            "options": [
+              "See UI changes quickly while developing",
+              "Deploy to stores automatically",
+              "Delete emulators",
+              "Skip widgets"
+            ],
+            "answerIndex": 0,
+            "videoRef": "VPvVD8t02U8",
+            "explanation": "Fast iteration is a Flutter strength."
+          }
+        ]
+      },
+      "project": {
+        "title": "Hello CareerX",
+        "description": "Scaffold an app that shows the CareerX name and tagline."
+      }
+    },
+    {
+      "id": "layouts-widgets",
+      "order": 2,
+      "title": "Layouts & Common Widgets",
+      "goal": "Compose Column, Row, ListView, and basic material components.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "layouts-widgets-v1",
+          "title": "Flutter Widget Overview",
+          "youtubeId": "b_sQ9bMltGU",
+          "youtubeUrl": "https://www.youtube.com/watch?v=b_sQ9bMltGU",
+          "channel": "Flutter",
+          "language": "en",
+          "durationMin": 10
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Column arranges children…",
+            "options": [
+              "Vertically",
+              "Only diagonally",
+              "In SQL order",
+              "On the server"
+            ],
+            "answerIndex": 0,
+            "videoRef": "b_sQ9bMltGU",
+            "explanation": "Column is a vertical flex-like layout."
+          },
+          {
+            "text": "ListView is useful for…",
+            "options": [
+              "Scrollable lists",
+              "DNS records",
+              "Password hashing",
+              "CSS modules"
+            ],
+            "answerIndex": 0,
+            "videoRef": "b_sQ9bMltGU",
+            "explanation": "Lists scroll through many items."
+          },
+          {
+            "text": "Padding wraps a child to…",
+            "options": [
+              "Add space around it",
+              "Compile Dart",
+              "Open sockets",
+              "Change the OS"
+            ],
+            "answerIndex": 0,
+            "videoRef": "b_sQ9bMltGU",
+            "explanation": "Padding insets its child."
+          }
+        ]
+      },
+      "project": {
+        "title": "Tracks list screen",
+        "description": "Show eight track titles in a scrollable list."
+      }
+    },
+    {
+      "id": "nav-state",
+      "order": 3,
+      "title": "Navigation & State",
+      "goal": "Navigate between screens and hold simple local state.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "nav-state-v1",
+          "title": "Flutter Navigation",
+          "youtubeId": "b2fgMGfR1zI",
+          "youtubeUrl": "https://www.youtube.com/watch?v=b2fgMGfR1zI",
+          "channel": "Flutter",
+          "language": "en",
+          "durationMin": 10
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Navigator pushes a new…",
+            "options": [
+              "Route/screen",
+              "SQL table",
+              "CSS file",
+              "IP packet"
+            ],
+            "answerIndex": 0,
+            "videoRef": "b2fgMGfR1zI",
+            "explanation": "Navigation stacks routes."
+          },
+          {
+            "text": "setState tells Flutter to…",
+            "options": [
+              "Rebuild the widget subtree",
+              "Restart the phone",
+              "Delete assets",
+              "Ignore UI"
+            ],
+            "answerIndex": 0,
+            "videoRef": "b2fgMGfR1zI",
+            "explanation": "State changes trigger rebuilds."
+          },
+          {
+            "text": "Passing arguments to a route is for…",
+            "options": [
+              "Sending data to the next screen",
+              "Styling Material only",
+              "Bypassing widgets",
+              "Hostnames"
+            ],
+            "answerIndex": 0,
+            "videoRef": "b2fgMGfR1zI",
+            "explanation": "Routes often need ids or titles."
+          }
+        ]
+      },
+      "project": {
+        "title": "List → detail",
+        "description": "Tap a track to open a detail screen with its description."
+      }
+    },
+    {
+      "id": "flutter-polish",
+      "order": 4,
+      "title": "Forms & Polish",
+      "goal": "Capture input and apply basic theming for a coherent app.",
+      "estimatedHours": 7,
+      "videos": [
+        {
+          "id": "flutter-polish-v1",
+          "title": "Flutter Forms",
+          "youtubeId": "RjWqUe_gAPA",
+          "youtubeUrl": "https://www.youtube.com/watch?v=RjWqUe_gAPA",
+          "channel": "Flutter",
+          "language": "en",
+          "durationMin": 8
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "TextFormField is used to…",
+            "options": [
+              "Collect and validate text input",
+              "Stream video only",
+              "Configure routers",
+              "Write SQL"
+            ],
+            "answerIndex": 0,
+            "videoRef": "RjWqUe_gAPA",
+            "explanation": "Forms capture user text."
+          },
+          {
+            "text": "ThemeData helps…",
+            "options": [
+              "Apply consistent colors and type",
+              "Replace Dart",
+              "Host APIs",
+              "Capture packets"
+            ],
+            "answerIndex": 0,
+            "videoRef": "RjWqUe_gAPA",
+            "explanation": "Theming centralizes look-and-feel."
+          },
+          {
+            "text": "Validation should run…",
+            "options": [
+              "Before accepting bad data",
+              "Never",
+              "Only after deleting the form",
+              "On the GPU"
+            ],
+            "answerIndex": 0,
+            "videoRef": "RjWqUe_gAPA",
+            "explanation": "Validate before submit actions."
+          }
+        ]
+      },
+      "project": {
+        "title": "Name onboarding",
+        "description": "A form that saves a display name and greets the user."
+      }
+    }
+  ]
+}

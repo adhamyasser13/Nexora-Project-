@@ -1,0 +1,240 @@
+{
+  "title": "Find your track",
+  "description": "Answer 9 short questions. We’ll show your top matches — you pick the path.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What sounds most exciting to work on?",
+      "options": [
+        {
+          "id": "q1a",
+          "label": "Interfaces people see and click",
+          "scores": { "frontend": 3, "ui-ux": 2, "mobile-flutter": 1 }
+        },
+        {
+          "id": "q1b",
+          "label": "Servers, APIs, and data behind the scenes",
+          "scores": { "backend": 3, "software-engineering": 1, "data-analysis": 1 }
+        },
+        {
+          "id": "q1c",
+          "label": "Keeping systems safe from attacks",
+          "scores": { "cybersecurity": 3, "networking": 2 }
+        },
+        {
+          "id": "q1d",
+          "label": "Turning messy data into clear decisions",
+          "scores": { "data-analysis": 3, "software-engineering": 1 }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How do you prefer to learn?",
+      "options": [
+        {
+          "id": "q2a",
+          "label": "Build something visual every day",
+          "scores": { "frontend": 3, "ui-ux": 2, "mobile-flutter": 2 }
+        },
+        {
+          "id": "q2b",
+          "label": "Write logic and connect systems",
+          "scores": { "backend": 3, "software-engineering": 2 }
+        },
+        {
+          "id": "q2c",
+          "label": "Follow checklists and hardening steps",
+          "scores": { "cybersecurity": 3, "networking": 2 }
+        },
+        {
+          "id": "q2d",
+          "label": "Explore datasets and charts",
+          "scores": { "data-analysis": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Pick a tool you’d like to master first.",
+      "options": [
+        {
+          "id": "q3a",
+          "label": "React or HTML/CSS",
+          "scores": { "frontend": 3, "ui-ux": 1 }
+        },
+        {
+          "id": "q3b",
+          "label": "Node, Python, or databases",
+          "scores": { "backend": 3, "software-engineering": 1 }
+        },
+        {
+          "id": "q3c",
+          "label": "Flutter / Dart",
+          "scores": { "mobile-flutter": 3 }
+        },
+        {
+          "id": "q3d",
+          "label": "Wireshark, Linux, or firewalls",
+          "scores": { "networking": 3, "cybersecurity": 2 }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "In a team project, you’d rather…",
+      "options": [
+        {
+          "id": "q4a",
+          "label": "Own the screens and interactions",
+          "scores": { "frontend": 2, "ui-ux": 3, "mobile-flutter": 1 }
+        },
+        {
+          "id": "q4b",
+          "label": "Design the architecture and workflows",
+          "scores": { "software-engineering": 3, "backend": 1 }
+        },
+        {
+          "id": "q4c",
+          "label": "Find vulnerabilities before release",
+          "scores": { "cybersecurity": 3 }
+        },
+        {
+          "id": "q4d",
+          "label": "Measure what users actually do",
+          "scores": { "data-analysis": 3, "ui-ux": 1 }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Which problem would you stay up late solving?",
+      "options": [
+        {
+          "id": "q5a",
+          "label": "A layout that breaks on mobile",
+          "scores": { "frontend": 3, "ui-ux": 2, "mobile-flutter": 2 }
+        },
+        {
+          "id": "q5b",
+          "label": "An API that’s too slow under load",
+          "scores": { "backend": 3, "software-engineering": 2 }
+        },
+        {
+          "id": "q5c",
+          "label": "A suspicious login pattern",
+          "scores": { "cybersecurity": 3, "networking": 1 }
+        },
+        {
+          "id": "q5d",
+          "label": "Packets not reaching the right host",
+          "scores": { "networking": 3, "cybersecurity": 1 }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What matters more to you right now?",
+      "options": [
+        {
+          "id": "q6a",
+          "label": "Shipping a portfolio people can click",
+          "scores": { "frontend": 3, "ui-ux": 2, "mobile-flutter": 2 }
+        },
+        {
+          "id": "q6b",
+          "label": "Understanding how real products are engineered",
+          "scores": { "software-engineering": 3, "backend": 1 }
+        },
+        {
+          "id": "q6c",
+          "label": "Getting ready for SOC / blue-team roles",
+          "scores": { "cybersecurity": 3, "networking": 2 }
+        },
+        {
+          "id": "q6d",
+          "label": "Analyzing numbers for business insights",
+          "scores": { "data-analysis": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "How do you feel about design?",
+      "options": [
+        {
+          "id": "q7a",
+          "label": "I love spacing, type, and flow",
+          "scores": { "ui-ux": 3, "frontend": 1 }
+        },
+        {
+          "id": "q7b",
+          "label": "I care if it works; polish can wait",
+          "scores": { "backend": 2, "software-engineering": 2, "networking": 1 }
+        },
+        {
+          "id": "q7c",
+          "label": "I want apps that feel native on phones",
+          "scores": { "mobile-flutter": 3, "ui-ux": 1 }
+        },
+        {
+          "id": "q7d",
+          "label": "I prefer dashboards and charts",
+          "scores": { "data-analysis": 3, "frontend": 1 }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Pick a weekend project.",
+      "options": [
+        {
+          "id": "q8a",
+          "label": "Rebuild a landing page in React",
+          "scores": { "frontend": 3 }
+        },
+        {
+          "id": "q8b",
+          "label": "Write a small REST API with auth",
+          "scores": { "backend": 3, "software-engineering": 1 }
+        },
+        {
+          "id": "q8c",
+          "label": "Wire a home lab and capture traffic",
+          "scores": { "networking": 3, "cybersecurity": 2 }
+        },
+        {
+          "id": "q8d",
+          "label": "Clean a CSV and present findings",
+          "scores": { "data-analysis": 3 }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Where do you want your first internship?",
+      "options": [
+        {
+          "id": "q9a",
+          "label": "Product / web team",
+          "scores": { "frontend": 2, "ui-ux": 2, "mobile-flutter": 2, "software-engineering": 1 }
+        },
+        {
+          "id": "q9b",
+          "label": "Platform / backend team",
+          "scores": { "backend": 3, "software-engineering": 2 }
+        },
+        {
+          "id": "q9c",
+          "label": "Security or network ops",
+          "scores": { "cybersecurity": 3, "networking": 3 }
+        },
+        {
+          "id": "q9d",
+          "label": "Analytics or BI team",
+          "scores": { "data-analysis": 3 }
+        }
+      ]
+    }
+  ]
+}

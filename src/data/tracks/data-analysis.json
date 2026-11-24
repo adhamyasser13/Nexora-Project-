@@ -1,0 +1,260 @@
+{
+  "id": "data-analysis",
+  "title": "Data Analysis",
+  "description": "Clean datasets, explore patterns, and present findings others can act on.",
+  "level": "beginner",
+  "stages": [
+    {
+      "id": "data-thinking",
+      "order": 1,
+      "title": "Thinking with Data",
+      "goal": "Frame a question, define metrics, and spot bias in a dataset.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "data-thinking-v1",
+          "title": "Data Analysis for Beginners",
+          "youtubeId": "qP9E_B_gY7I",
+          "youtubeUrl": "https://www.youtube.com/watch?v=qP9E_B_gY7I",
+          "channel": "Google Career Certificates",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "A metric should be…",
+            "options": [
+              "Vague on purpose",
+              "Tied to a decision",
+              "Hidden from stakeholders",
+              "Always a percentage of likes"
+            ],
+            "answerIndex": 1,
+            "videoRef": "qP9E_B_gY7I",
+            "explanation": "Metrics guide actions."
+          },
+          {
+            "text": "Bias in data can…",
+            "options": [
+              "Never exist",
+              "Distort conclusions",
+              "Only help accuracy",
+              "Replace cleaning"
+            ],
+            "answerIndex": 1,
+            "videoRef": "qP9E_B_gY7I",
+            "explanation": "Biased samples mislead analysis."
+          },
+          {
+            "text": "Start analysis with…",
+            "options": [
+              "A clear question",
+              "Random charts only",
+              "Deleting outliers blindly",
+              "Ignoring context"
+            ],
+            "answerIndex": 0,
+            "videoRef": "qP9E_B_gY7I",
+            "explanation": "Questions focus the work."
+          }
+        ]
+      },
+      "project": {
+        "title": "Question + metric card",
+        "description": "Write one business question and two metrics that answer it."
+      }
+    },
+    {
+      "id": "spreadsheets",
+      "order": 2,
+      "title": "Spreadsheets & Cleaning",
+      "goal": "Clean columns, filter rows, and summarize with pivot-style views.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "spreadsheets-v1",
+          "title": "Excel/Google Sheets for Data Analysis",
+          "youtubeId": "OPVGZ7woknE",
+          "youtubeUrl": "https://www.youtube.com/watch?v=OPVGZ7woknE",
+          "channel": "freeCodeCamp.org",
+          "language": "en",
+          "durationMin": 90
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Cleaning often includes…",
+            "options": [
+              "Fixing missing and duplicate values",
+              "Ignoring column names",
+              "Deleting the question",
+              "Hiding errors from the team"
+            ],
+            "answerIndex": 0,
+            "videoRef": "OPVGZ7woknE",
+            "explanation": "Quality data needs cleaning."
+          },
+          {
+            "text": "Filters help you…",
+            "options": [
+              "Focus on relevant subsets",
+              "Encrypt disks",
+              "Compile code",
+              "Style CSS"
+            ],
+            "answerIndex": 0,
+            "videoRef": "OPVGZ7woknE",
+            "explanation": "Filters isolate rows of interest."
+          },
+          {
+            "text": "A summary table is useful to…",
+            "options": [
+              "Aggregate categories",
+              "Replace the dataset forever",
+              "Store passwords",
+              "Host videos"
+            ],
+            "answerIndex": 0,
+            "videoRef": "OPVGZ7woknE",
+            "explanation": "Aggregation reveals patterns."
+          }
+        ]
+      },
+      "project": {
+        "title": "Clean a CSV",
+        "description": "Fix missing values and produce a one-page summary table."
+      }
+    },
+    {
+      "id": "viz-story",
+      "order": 3,
+      "title": "Visualization & Story",
+      "goal": "Choose chart types that match the claim you are making.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "viz-story-v1",
+          "title": "Data Visualization Basics",
+          "youtubeId": "hEVGV99lP4w",
+          "youtubeUrl": "https://www.youtube.com/watch?v=hEVGV99lP4w",
+          "channel": "Google Career Certificates",
+          "language": "en",
+          "durationMin": 20
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Bar charts are good for…",
+            "options": [
+              "Comparing categories",
+              "Showing longitude only",
+              "Encrypting data",
+              "Playing audio"
+            ],
+            "answerIndex": 0,
+            "videoRef": "hEVGV99lP4w",
+            "explanation": "Bars compare discrete groups well."
+          },
+          {
+            "text": "A misleading chart often…",
+            "options": [
+              "Truncates axes without note",
+              "Labels axes clearly",
+              "Shows sample size",
+              "Uses consistent units"
+            ],
+            "answerIndex": 0,
+            "videoRef": "hEVGV99lP4w",
+            "explanation": "Axis tricks distort perception."
+          },
+          {
+            "text": "A data story should end with…",
+            "options": [
+              "A recommended action",
+              "Raw dumps only",
+              "No conclusion",
+              "Hidden caveats"
+            ],
+            "answerIndex": 0,
+            "videoRef": "hEVGV99lP4w",
+            "explanation": "Insights need decisions attached."
+          }
+        ]
+      },
+      "project": {
+        "title": "One-slide insight",
+        "description": "One chart + three bullets + one recommended action."
+      }
+    },
+    {
+      "id": "sql-basics",
+      "order": 4,
+      "title": "SQL for Analysts",
+      "goal": "Query tables with SELECT, WHERE, GROUP BY, and JOINs.",
+      "estimatedHours": 10,
+      "videos": [
+        {
+          "id": "sql-basics-v1",
+          "title": "SQL Tutorial for Beginners",
+          "youtubeId": "HXV3zeQKqGY",
+          "youtubeUrl": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+          "channel": "freeCodeCamp.org",
+          "language": "en",
+          "durationMin": 180
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "SELECT chooses…",
+            "options": [
+              "Which columns to return",
+              "Which CSS to load",
+              "Which server to reboot",
+              "Which font to use"
+            ],
+            "answerIndex": 0,
+            "videoRef": "HXV3zeQKqGY",
+            "explanation": "SELECT projects columns."
+          },
+          {
+            "text": "WHERE filters…",
+            "options": [
+              "Rows",
+              "Fonts",
+              "Routes",
+              "Cookies only"
+            ],
+            "answerIndex": 0,
+            "videoRef": "HXV3zeQKqGY",
+            "explanation": "WHERE limits matching rows."
+          },
+          {
+            "text": "GROUP BY is used to…",
+            "options": [
+              "Aggregate per category",
+              "Delete databases",
+              "Style tables",
+              "Create videos"
+            ],
+            "answerIndex": 0,
+            "videoRef": "HXV3zeQKqGY",
+            "explanation": "Grouping enables aggregates like COUNT."
+          }
+        ]
+      },
+      "project": {
+        "title": "Three queries",
+        "description": "Write SELECT with filter, aggregate, and a simple JOIN."
+      }
+    }
+  ]
+}

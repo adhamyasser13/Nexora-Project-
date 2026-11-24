@@ -1,0 +1,260 @@
+{
+  "id": "ui-ux",
+  "title": "UI/UX Design",
+  "description": "Research users, structure flows, and design interfaces that feel clear and intentional.",
+  "level": "beginner",
+  "stages": [
+    {
+      "id": "ux-foundations",
+      "order": 1,
+      "title": "UX Foundations",
+      "goal": "Separate user problems from solution ideas and write a problem statement.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "ux-foundations-v1",
+          "title": "UX Design Explained",
+          "youtubeId": "Ovj4hFxko7c",
+          "youtubeUrl": "https://www.youtube.com/watch?v=Ovj4hFxko7c",
+          "channel": "AJ&Smart",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "UX focuses first on…",
+            "options": [
+              "User needs and outcomes",
+              "Choosing neon colors",
+              "Database indexes",
+              "Server uptime only"
+            ],
+            "answerIndex": 0,
+            "videoRef": "Ovj4hFxko7c",
+            "explanation": "Experience design starts with people."
+          },
+          {
+            "text": "A problem statement should avoid…",
+            "options": [
+              "Jumping to a specific UI",
+              "Naming users",
+              "Stating context",
+              "Mentioning goals"
+            ],
+            "answerIndex": 0,
+            "videoRef": "Ovj4hFxko7c",
+            "explanation": "Don’t lock the solution too early."
+          },
+          {
+            "text": "UI is mainly about…",
+            "options": [
+              "Visual and interactive presentation",
+              "Packet routing",
+              "SQL joins",
+              "Password hashing"
+            ],
+            "answerIndex": 0,
+            "videoRef": "Ovj4hFxko7c",
+            "explanation": "UI is the tangible interface layer."
+          }
+        ]
+      },
+      "project": {
+        "title": "Problem statement",
+        "description": "Write a CareerX problem statement in 4 sentences."
+      }
+    },
+    {
+      "id": "research-flows",
+      "order": 2,
+      "title": "Research & Flows",
+      "goal": "Map a user journey and identify friction points.",
+      "estimatedHours": 7,
+      "videos": [
+        {
+          "id": "research-flows-v1",
+          "title": "User Journey Maps",
+          "youtubeId": "mWLpdRKT5ZU",
+          "youtubeUrl": "https://www.youtube.com/watch?v=mWLpdRKT5ZU",
+          "channel": "NN/g Nielsen Norman Group",
+          "language": "en",
+          "durationMin": 5
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "A journey map shows…",
+            "options": [
+              "Steps, emotions, and pain points over time",
+              "Only hex colors",
+              "Server logs",
+              "Git commits"
+            ],
+            "answerIndex": 0,
+            "videoRef": "mWLpdRKT5ZU",
+            "explanation": "Journeys capture experience across steps."
+          },
+          {
+            "text": "Friction points are…",
+            "options": [
+              "Moments that slow or confuse users",
+              "Always good",
+              "Only visual polish",
+              "Database foreign keys"
+            ],
+            "answerIndex": 0,
+            "videoRef": "mWLpdRKT5ZU",
+            "explanation": "Find where users struggle."
+          },
+          {
+            "text": "Research interviews should…",
+            "options": [
+              "Ask open questions and listen",
+              "Pitch your solution immediately",
+              "Ignore notes",
+              "Only use yes/no forever"
+            ],
+            "answerIndex": 0,
+            "videoRef": "mWLpdRKT5ZU",
+            "explanation": "Open listening surfaces real needs."
+          }
+        ]
+      },
+      "project": {
+        "title": "Journey map",
+        "description": "Map Landing → Discover → Roadmap for a student persona."
+      }
+    },
+    {
+      "id": "wireframes",
+      "order": 3,
+      "title": "Wireframes & Hierarchy",
+      "goal": "Create low-fidelity screens with clear visual hierarchy.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "wireframes-v1",
+          "title": "Wireframing for Beginners",
+          "youtubeId": "qpH7-KFWZRI",
+          "youtubeUrl": "https://www.youtube.com/watch?v=qpH7-KFWZRI",
+          "channel": "Flux Academy",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Low-fi wireframes prioritize…",
+            "options": [
+              "Structure over polish",
+              "Final brand gradients",
+              "Production APIs",
+              "SEO sitemaps only"
+            ],
+            "answerIndex": 0,
+            "videoRef": "qpH7-KFWZRI",
+            "explanation": "Early frames test layout, not pixels."
+          },
+          {
+            "text": "Visual hierarchy guides…",
+            "options": [
+              "What users notice first",
+              "Packet TTL",
+              "SQL order only",
+              "GPU clocks"
+            ],
+            "answerIndex": 0,
+            "videoRef": "qpH7-KFWZRI",
+            "explanation": "Size, weight, and spacing direct attention."
+          },
+          {
+            "text": "One primary CTA per screen helps…",
+            "options": [
+              "Reduce decision paralysis",
+              "Increase confusion",
+              "Hide navigation",
+              "Break accessibility"
+            ],
+            "answerIndex": 0,
+            "videoRef": "qpH7-KFWZRI",
+            "explanation": "Clear next actions improve completion."
+          }
+        ]
+      },
+      "project": {
+        "title": "Three wireframes",
+        "description": "Landing, tracks list, and roadmap wireframes in Figma."
+      }
+    },
+    {
+      "id": "ui-systems",
+      "order": 4,
+      "title": "UI Systems",
+      "goal": "Define colors, type, and components that stay consistent.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "ui-systems-v1",
+          "title": "Design Systems Explained",
+          "youtubeId": "wc5Nbw9Wc5s",
+          "youtubeUrl": "https://www.youtube.com/watch?v=wc5Nbw9Wc5s",
+          "channel": "Figma",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "A design system helps teams…",
+            "options": [
+              "Reuse consistent patterns",
+              "Avoid documentation",
+              "Skip accessibility",
+              "Ship random UI each time"
+            ],
+            "answerIndex": 0,
+            "videoRef": "wc5Nbw9Wc5s",
+            "explanation": "Shared tokens and components scale quality."
+          },
+          {
+            "text": "Tokens usually include…",
+            "options": [
+              "Color, type, spacing",
+              "Only marketing slogans",
+              "Server secrets",
+              "Packet captures"
+            ],
+            "answerIndex": 0,
+            "videoRef": "wc5Nbw9Wc5s",
+            "explanation": "Tokens encode foundational styles."
+          },
+          {
+            "text": "Components should be…",
+            "options": [
+              "Reusable with clear states",
+              "One-off forever",
+              "Undocumented",
+              "Inaccessible by design"
+            ],
+            "answerIndex": 0,
+            "videoRef": "wc5Nbw9Wc5s",
+            "explanation": "Define hover, focus, disabled, error."
+          }
+        ]
+      },
+      "project": {
+        "title": "Mini design system",
+        "description": "Document 4 colors, 2 fonts, and Button/Card components."
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+.page {
+  display: grid;
+  gap: calc(var(--space) * 2.5);
+}
+
+.crumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--graphite);
+}
+
+.crumb a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+.header {
+  display: grid;
+  gap: 0.75rem;
+  max-width: 46rem;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(1.7rem, 3.5vw, 2.2rem);
+  letter-spacing: -0.03em;
+}
+
+.goal {
+  margin: 0;
+  color: var(--graphite);
+  font-family: var(--font-body);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(220px, 0.9fr);
+  gap: calc(var(--space) * 2.5);
+  align-items: start;
+}
+
+.playerCol,
+.sidebar {
+  display: grid;
+  gap: 1rem;
+}
+
+.videoMeta {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.videoTitle {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.channel,
+.done {
+  margin: 0;
+  color: var(--graphite);
+  font-size: 0.9rem;
+}
+
+.lang {
+  font-weight: 700;
+  color: var(--signal-ink);
+}
+
+.done {
+  color: var(--ok);
+  font-weight: 700;
+}
+
+.sidebar {
+  padding: calc(var(--space) * 2);
+  background: var(--chalk);
+  border: 2px solid var(--ink);
+}
+
+.sideTitle {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--graphite);
+}
+
+.videoList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.videoBtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  text-align: left;
+  padding: 0.7rem 0.75rem;
+  border: 2px solid var(--rule);
+  background: var(--paper);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.videoBtn:hover,
+.active {
+  border-color: var(--ink);
+}
+
+.active {
+  background: #fde8e5;
+}
+
+.flag {
+  color: var(--graphite);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.project {
+  display: grid;
+  gap: 0.35rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.projectTitle {
+  margin: 0;
+  font-weight: 700;
+}
+
+.projectBody {
+  margin: 0;
+  color: var(--graphite);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 860px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

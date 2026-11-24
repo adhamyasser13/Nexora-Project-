@@ -1,0 +1,386 @@
+{
+  "id": "software-engineering",
+  "title": "Software Engineering",
+  "description": "Learn how real products are planned, versioned, tested, and shipped as a team.",
+  "level": "beginner",
+  "stages": [
+    {
+      "id": "se-mindset",
+      "order": 1,
+      "title": "Engineering Mindset",
+      "goal": "Break problems into requirements, constraints, and measurable outcomes.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "se-mindset-v1",
+          "title": "Software Engineering Basics",
+          "youtubeId": "erEgovG9W5I",
+          "youtubeUrl": "https://www.youtube.com/watch?v=erEgovG9W5I",
+          "channel": "freeCodeCamp.org",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "A good requirement is…",
+            "options": [
+              "Vague and inspiring only",
+              "Testable and specific",
+              "Hidden from the team",
+              "Written after shipping only"
+            ],
+            "answerIndex": 1,
+            "videoRef": "erEgovG9W5I",
+            "explanation": "Teams need clear, testable requirements."
+          },
+          {
+            "text": "Constraints help because they…",
+            "options": [
+              "Remove all creativity",
+              "Define what is possible in time and tech",
+              "Replace user research",
+              "Are optional forever"
+            ],
+            "answerIndex": 1,
+            "videoRef": "erEgovG9W5I",
+            "explanation": "Time, tools, and skill limits shape solutions."
+          },
+          {
+            "text": "Shipping value early means…",
+            "options": [
+              "Never planning",
+              "Delivering a useful slice sooner",
+              "Skipping reviews",
+              "Ignoring bugs"
+            ],
+            "answerIndex": 1,
+            "videoRef": "erEgovG9W5I",
+            "explanation": "Incremental delivery reduces risk."
+          }
+        ]
+      },
+      "project": {
+        "title": "Problem brief",
+        "description": "Write a one-page brief: problem, users, constraints, success metrics."
+      }
+    },
+    {
+      "id": "git-workflow",
+      "order": 2,
+      "title": "Git & Collaboration",
+      "goal": "Use branches, commits, and pull requests without losing work.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "git-workflow-v1",
+          "title": "Git & GitHub Crash Course",
+          "youtubeId": "RGOj5yH7evk",
+          "youtubeUrl": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+          "channel": "freeCodeCamp.org",
+          "language": "en",
+          "durationMin": 60
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "A branch is useful to…",
+            "options": [
+              "Delete history forever",
+              "Isolate work before merging",
+              "Replace README files",
+              "Host production only"
+            ],
+            "answerIndex": 1,
+            "videoRef": "RGOj5yH7evk",
+            "explanation": "Branches keep unfinished work separate."
+          },
+          {
+            "text": "A pull request is mainly for…",
+            "options": [
+              "Downloading npm packages",
+              "Reviewing and merging changes",
+              "Styling CSS",
+              "Encrypting disks"
+            ],
+            "answerIndex": 1,
+            "videoRef": "RGOj5yH7evk",
+            "explanation": "PRs enable review before merge."
+          },
+          {
+            "text": "Good commit messages should…",
+            "options": [
+              "Be random emojis only",
+              "Explain why the change exists",
+              "Be empty",
+              "List every keystroke"
+            ],
+            "answerIndex": 1,
+            "videoRef": "RGOj5yH7evk",
+            "explanation": "Clear why helps future readers."
+          }
+        ]
+      },
+      "project": {
+        "title": "Feature branch PR",
+        "description": "Open a PR with a short description and at least one review comment resolved."
+      }
+    },
+    {
+      "id": "architecture-basics",
+      "order": 3,
+      "title": "Architecture Basics",
+      "goal": "Sketch modules, APIs, and data flow for a small product.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "architecture-basics-v1",
+          "title": "Software Architecture for Developers",
+          "youtubeId": "FLtqAi7WNAc",
+          "youtubeUrl": "https://www.youtube.com/watch?v=FLtqAi7WNAc",
+          "channel": "Continuous Delivery",
+          "language": "en",
+          "durationMin": 20
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Separation of concerns means…",
+            "options": [
+              "One file does everything",
+              "Each part has a clear responsibility",
+              "No documentation",
+              "Avoiding functions"
+            ],
+            "answerIndex": 1,
+            "videoRef": "FLtqAi7WNAc",
+            "explanation": "Clear boundaries keep systems maintainable."
+          },
+          {
+            "text": "An API boundary helps teams…",
+            "options": [
+              "Share contracts between parts",
+              "Avoid HTTP forever",
+              "Skip testing",
+              "Hide all errors"
+            ],
+            "answerIndex": 0,
+            "videoRef": "FLtqAi7WNAc",
+            "explanation": "Contracts let parts evolve more safely."
+          },
+          {
+            "text": "Diagrams are useful when they…",
+            "options": [
+              "Are decorative only",
+              "Clarify data and control flow",
+              "Replace code",
+              "Must be photorealistic"
+            ],
+            "answerIndex": 1,
+            "videoRef": "FLtqAi7WNAc",
+            "explanation": "Simple diagrams communicate structure."
+          }
+        ]
+      },
+      "project": {
+        "title": "System sketch",
+        "description": "Draw boxes for UI, API, and storage for a learning app like CareerX."
+      }
+    },
+    {
+      "id": "testing-basics",
+      "order": 4,
+      "title": "Testing Basics",
+      "goal": "Write unit tests for critical logic and know what to test first.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "testing-basics-v1",
+          "title": "JavaScript Testing Introduction",
+          "youtubeId": "7r4xVDI2rsw",
+          "youtubeUrl": "https://www.youtube.com/watch?v=7r4xVDI2rsw",
+          "channel": "Web Dev Simplified",
+          "language": "en",
+          "durationMin": 20
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "A unit test usually focuses on…",
+            "options": [
+              "The whole production cluster",
+              "A small function or module",
+              "Marketing copy",
+              "CDN pricing"
+            ],
+            "answerIndex": 1,
+            "videoRef": "7r4xVDI2rsw",
+            "explanation": "Unit tests target small units of behavior."
+          },
+          {
+            "text": "Tests give confidence when…",
+            "options": [
+              "They never run",
+              "They catch regressions on change",
+              "They only print hello",
+              "They replace code reviews"
+            ],
+            "answerIndex": 1,
+            "videoRef": "7r4xVDI2rsw",
+            "explanation": "Automated checks protect future edits."
+          },
+          {
+            "text": "Start testing where bugs are…",
+            "options": [
+              "Least likely",
+              "Costly and likely",
+              "Impossible",
+              "Only visual"
+            ],
+            "answerIndex": 1,
+            "videoRef": "7r4xVDI2rsw",
+            "explanation": "Prioritize high-risk logic first."
+          }
+        ]
+      },
+      "project": {
+        "title": "Score calculator tests",
+        "description": "Test a function that grades a quiz and decides pass/fail at 70%."
+      }
+    },
+    {
+      "id": "agile-delivery",
+      "order": 5,
+      "title": "Delivery & Iteration",
+      "goal": "Plan a sprint-sized slice and demo progress with clear next steps.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "agile-delivery-v1",
+          "title": "Agile Explained",
+          "youtubeId": "Z9QbYZh1YXY",
+          "youtubeUrl": "https://www.youtube.com/watch?v=Z9QbYZh1YXY",
+          "channel": "Harvard Business Review",
+          "language": "en",
+          "durationMin": 10
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "A sprint aims to…",
+            "options": [
+              "Ship everything forever",
+              "Deliver a time-boxed increment",
+              "Avoid user feedback",
+              "Skip planning"
+            ],
+            "answerIndex": 1,
+            "videoRef": "Z9QbYZh1YXY",
+            "explanation": "Short cycles create feedback loops."
+          },
+          {
+            "text": "A useful demo shows…",
+            "options": [
+              "Only slide decks",
+              "Working software and open risks",
+              "Secrets and passwords",
+              "Unrelated memes"
+            ],
+            "answerIndex": 1,
+            "videoRef": "Z9QbYZh1YXY",
+            "explanation": "Stakeholders need evidence and honesty."
+          },
+          {
+            "text": "Backlog items should be…",
+            "options": [
+              "Unprioritized forever",
+              "Ordered by value and risk",
+              "Hidden from the team",
+              "Written after release only"
+            ],
+            "answerIndex": 1,
+            "videoRef": "Z9QbYZh1YXY",
+            "explanation": "Priority keeps focus on what matters."
+          }
+        ]
+      },
+      "project": {
+        "title": "Two-week plan",
+        "description": "List 5 backlog items for CareerX MVP and mark the demo goal."
+      }
+    },
+    {
+      "id": "quality-ops",
+      "order": 6,
+      "title": "Quality & Ops Awareness",
+      "goal": "Recognize logging, monitoring, and release checklist basics.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "quality-ops-v1",
+          "title": "DevOps in 5 Minutes",
+          "youtubeId": "_G0EV4jlYZw",
+          "youtubeUrl": "https://www.youtube.com/watch?v=_G0EV4jlYZw",
+          "channel": "IBM Technology",
+          "language": "en",
+          "durationMin": 6
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Monitoring helps teams…",
+            "options": [
+              "Ignore production",
+              "Detect issues after release",
+              "Avoid version control",
+              "Delete backups"
+            ],
+            "answerIndex": 1,
+            "videoRef": "_G0EV4jlYZw",
+            "explanation": "Signals show health and failures early."
+          },
+          {
+            "text": "A release checklist reduces…",
+            "options": [
+              "Team communication",
+              "Missed steps under pressure",
+              "Code readability",
+              "Documentation need"
+            ],
+            "answerIndex": 1,
+            "videoRef": "_G0EV4jlYZw",
+            "explanation": "Checklists catch common omissions."
+          },
+          {
+            "text": "Logs are most useful when they…",
+            "options": [
+              "Contain secrets",
+              "Are structured and searchable",
+              "Never rotate",
+              "Are screenshots only"
+            ],
+            "answerIndex": 1,
+            "videoRef": "_G0EV4jlYZw",
+            "explanation": "Structured logs speed debugging."
+          }
+        ]
+      },
+      "project": {
+        "title": "Release checklist",
+        "description": "Write 8 must-check items before a frontend demo."
+      }
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "networking",
+  "title": "Networking",
+  "description": "Understand how devices talk: models, addressing, routing, and troubleshooting basics.",
+  "level": "beginner",
+  "stages": [
+    {
+      "id": "net-models",
+      "order": 1,
+      "title": "Network Models",
+      "goal": "Compare OSI and TCP/IP layers and what each is for.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "net-models-v1",
+          "title": "OSI Model Explained",
+          "youtubeId": "vv4y_uInXkY",
+          "youtubeUrl": "https://www.youtube.com/watch?v=vv4y_uInXkY",
+          "channel": "PowerCert Animated Videos",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "The OSI model has how many layers?",
+            "options": [
+              "4",
+              "5",
+              "7",
+              "9"
+            ],
+            "answerIndex": 2,
+            "videoRef": "vv4y_uInXkY",
+            "explanation": "OSI defines seven layers."
+          },
+          {
+            "text": "IP addressing sits conceptually near the…",
+            "options": [
+              "Network layer",
+              "Application fonts",
+              "Physical chairs",
+              "Presentation sticky notes"
+            ],
+            "answerIndex": 0,
+            "videoRef": "vv4y_uInXkY",
+            "explanation": "Network layer handles logical addressing."
+          },
+          {
+            "text": "Models help because they…",
+            "options": [
+              "Organize responsibilities for troubleshooting",
+              "Replace cables",
+              "Encrypt automatically",
+              "Delete DNS"
+            ],
+            "answerIndex": 0,
+            "videoRef": "vv4y_uInXkY",
+            "explanation": "Layered thinking isolates faults."
+          }
+        ]
+      },
+      "project": {
+        "title": "Layer cheat sheet",
+        "description": "One page mapping common tools/protocols to layers."
+      }
+    },
+    {
+      "id": "ip-subnet",
+      "order": 2,
+      "title": "IP & Subnets",
+      "goal": "Read IPv4 addresses and explain why subnets exist.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "ip-subnet-v1",
+          "title": "IP Addresses and Subnets",
+          "youtubeId": "s_NAgB6BKuQ",
+          "youtubeUrl": "https://www.youtube.com/watch?v=s_NAgB6BKuQ",
+          "channel": "PowerCert Animated Videos",
+          "language": "en",
+          "durationMin": 20
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "An IPv4 address is commonly written as…",
+            "options": [
+              "Four octets dotted decimal",
+              "A CSS color only",
+              "A git SHA",
+              "A JWT"
+            ],
+            "answerIndex": 0,
+            "videoRef": "s_NAgB6BKuQ",
+            "explanation": "Example: 192.168.1.10."
+          },
+          {
+            "text": "A subnet mask helps determine…",
+            "options": [
+              "Network vs host portions",
+              "Font weight",
+              "React keys",
+              "Video codecs"
+            ],
+            "answerIndex": 0,
+            "videoRef": "s_NAgB6BKuQ",
+            "explanation": "Masks split network and host bits."
+          },
+          {
+            "text": "Private addresses are used…",
+            "options": [
+              "Inside local networks (not public internet routing)",
+              "Only by Google DNS",
+              "Instead of MAC forever",
+              "As passwords"
+            ],
+            "answerIndex": 0,
+            "videoRef": "s_NAgB6BKuQ",
+            "explanation": "RFC1918 ranges stay local."
+          }
+        ]
+      },
+      "project": {
+        "title": "Home LAN map",
+        "description": "Sketch router, devices, and example private IPs."
+      }
+    },
+    {
+      "id": "tcp-dns",
+      "order": 3,
+      "title": "TCP, UDP & DNS",
+      "goal": "Contrast TCP/UDP and explain how DNS resolves names.",
+      "estimatedHours": 7,
+      "videos": [
+        {
+          "id": "tcp-dns-v1",
+          "title": "TCP vs UDP",
+          "youtubeId": "Vdc8TCESJw8",
+          "youtubeUrl": "https://www.youtube.com/watch?v=Vdc8TCESJw8",
+          "channel": "PowerCert Animated Videos",
+          "language": "en",
+          "durationMin": 10
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "TCP is connection-oriented and…",
+            "options": [
+              "Provides reliable delivery",
+              "Never retransmits",
+              "Only works offline",
+              "Replaces IP"
+            ],
+            "answerIndex": 0,
+            "videoRef": "Vdc8TCESJw8",
+            "explanation": "TCP tracks and retransmits as needed."
+          },
+          {
+            "text": "UDP is often chosen when…",
+            "options": [
+              "Low latency matters more than perfect reliability",
+              "You need strict ordered file transfer always",
+              "You hate packets",
+              "DNS is banned"
+            ],
+            "answerIndex": 0,
+            "videoRef": "Vdc8TCESJw8",
+            "explanation": "Streaming/gaming often prefer UDP."
+          },
+          {
+            "text": "DNS translates…",
+            "options": [
+              "Names to IP addresses",
+              "CSS to HTML",
+              "JSON to XML only",
+              "Pixels to packets"
+            ],
+            "answerIndex": 0,
+            "videoRef": "Vdc8TCESJw8",
+            "explanation": "Resolvers map hostnames to IPs."
+          }
+        ]
+      },
+      "project": {
+        "title": "Resolution lab notes",
+        "description": "Use nslookup/dig on two domains and record A records."
+      }
+    },
+    {
+      "id": "troubleshoot",
+      "order": 4,
+      "title": "Troubleshooting Basics",
+      "goal": "Use ping, traceroute thinking, and layered checks to find faults.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "troubleshoot-v1",
+          "title": "Network Troubleshooting",
+          "youtubeId": "0Z0i-FZ7b7g",
+          "youtubeUrl": "https://www.youtube.com/watch?v=0Z0i-FZ7b7g",
+          "channel": "NetworkChuck",
+          "language": "en",
+          "durationMin": 20
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "ping checks…",
+            "options": [
+              "Basic reachability",
+              "CSS specificity",
+              "React re-renders",
+              "Disk encryption"
+            ],
+            "answerIndex": 0,
+            "videoRef": "0Z0i-FZ7b7g",
+            "explanation": "ICMP echo tests reachability."
+          },
+          {
+            "text": "Start troubleshooting from…",
+            "options": [
+              "Simple local checks, then move outward",
+              "Rebuilding the internet",
+              "Deleting the router config first always",
+              "Ignoring physical cables"
+            ],
+            "answerIndex": 0,
+            "videoRef": "0Z0i-FZ7b7g",
+            "explanation": "Layered, simple-first isolation works."
+          },
+          {
+            "text": "A traceroute-style tool helps see…",
+            "options": [
+              "Where the path fails along hops",
+              "Font loading order",
+              "Git blame",
+              "Bundle size"
+            ],
+            "answerIndex": 0,
+            "videoRef": "0Z0i-FZ7b7g",
+            "explanation": "Hop visibility narrows the fault domain."
+          }
+        ]
+      },
+      "project": {
+        "title": "Fault tree",
+        "description": "Write a checklist for “can’t reach website” from cable to DNS to server."
+      }
+    }
+  ]
+}

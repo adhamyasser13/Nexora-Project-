@@ -1,0 +1,386 @@
+{
+  "id": "backend",
+  "title": "Backend Development",
+  "description": "Design APIs, store data, and handle auth so clients can trust the server.",
+  "level": "beginner",
+  "stages": [
+    {
+      "id": "http-apis",
+      "order": 1,
+      "title": "HTTP & REST APIs",
+      "goal": "Explain requests, responses, status codes, and resource-oriented routes.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "http-apis-v1",
+          "title": "HTTP Crash Course",
+          "youtubeId": "iYM2zFP3Zn0",
+          "youtubeUrl": "https://www.youtube.com/watch?v=iYM2zFP3Zn0",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 50
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "GET requests should typically…",
+            "options": [
+              "Delete records",
+              "Retrieve data without changing server state",
+              "Always require a request body",
+              "Bypass HTTPS"
+            ],
+            "answerIndex": 1,
+            "videoRef": "iYM2zFP3Zn0",
+            "explanation": "GET is safe and idempotent for reading."
+          },
+          {
+            "text": "Status 404 means…",
+            "options": [
+              "Success",
+              "Resource not found",
+              "Server overloaded",
+              "Unauthorized"
+            ],
+            "answerIndex": 1,
+            "videoRef": "iYM2zFP3Zn0",
+            "explanation": "404 signals the target resource is missing."
+          },
+          {
+            "text": "REST organizes APIs around…",
+            "options": [
+              "Pixels",
+              "Resources",
+              "Fonts",
+              "GPU shaders"
+            ],
+            "answerIndex": 1,
+            "videoRef": "iYM2zFP3Zn0",
+            "explanation": "Resources map to nouns with HTTP verbs."
+          }
+        ]
+      },
+      "project": {
+        "title": "API contract sheet",
+        "description": "Document 5 endpoints for a tracks API with methods and status codes."
+      }
+    },
+    {
+      "id": "node-express",
+      "order": 2,
+      "title": "Node & Express",
+      "goal": "Serve JSON routes with Express middleware.",
+      "estimatedHours": 12,
+      "videos": [
+        {
+          "id": "node-express-v1",
+          "title": "Express JS Crash Course",
+          "youtubeId": "LAxGVeq6kgs",
+          "youtubeUrl": "https://www.youtube.com/watch?v=LAxGVeq6kgs",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 70
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Middleware functions run…",
+            "options": [
+              "Only in the browser",
+              "In the request pipeline",
+              "After the response is deleted",
+              "Instead of routes"
+            ],
+            "answerIndex": 1,
+            "videoRef": "LAxGVeq6kgs",
+            "explanation": "Middleware can inspect and modify req/res."
+          },
+          {
+            "text": "res.json() is used to…",
+            "options": [
+              "Send a JSON response",
+              "Compile TypeScript",
+              "Style HTML",
+              "Open a websocket only"
+            ],
+            "answerIndex": 0,
+            "videoRef": "LAxGVeq6kgs",
+            "explanation": "It serializes and sends JSON."
+          },
+          {
+            "text": "app.listen starts…",
+            "options": [
+              "A CSS build",
+              "The HTTP server",
+              "A database migration",
+              "Git hooks"
+            ],
+            "answerIndex": 1,
+            "videoRef": "LAxGVeq6kgs",
+            "explanation": "listen binds the server to a port."
+          }
+        ]
+      },
+      "project": {
+        "title": "Tracks JSON API",
+        "description": "Build GET /tracks and GET /tracks/:id returning sample data."
+      }
+    },
+    {
+      "id": "databases",
+      "order": 3,
+      "title": "Databases",
+      "goal": "Model tables/collections and run basic CRUD queries.",
+      "estimatedHours": 10,
+      "videos": [
+        {
+          "id": "databases-v1",
+          "title": "SQL vs NoSQL",
+          "youtubeId": "ZS_kXvOeQ5Y",
+          "youtubeUrl": "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y",
+          "channel": "IBM Technology",
+          "language": "en",
+          "durationMin": 10
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "SQL databases store data primarily in…",
+            "options": [
+              "Tables",
+              "Pixels",
+              "CSS rules",
+              "MP4 files"
+            ],
+            "answerIndex": 0,
+            "videoRef": "ZS_kXvOeQ5Y",
+            "explanation": "Relational DBs use tables and relations."
+          },
+          {
+            "text": "CRUD stands for…",
+            "options": [
+              "Create Read Update Delete",
+              "Cache Route Upload Deploy",
+              "Code Review Unit Design",
+              "Client Render UI Dom"
+            ],
+            "answerIndex": 0,
+            "videoRef": "ZS_kXvOeQ5Y",
+            "explanation": "The four basic data operations."
+          },
+          {
+            "text": "Choose NoSQL when…",
+            "options": [
+              "You need flexible documents at scale",
+              "You never store data",
+              "You only write CSS",
+              "SQL is illegal"
+            ],
+            "answerIndex": 0,
+            "videoRef": "ZS_kXvOeQ5Y",
+            "explanation": "Document stores fit flexible schemas."
+          }
+        ]
+      },
+      "project": {
+        "title": "Progress schema",
+        "description": "Design a table or document for user track progress fields."
+      }
+    },
+    {
+      "id": "auth-security",
+      "order": 4,
+      "title": "Auth Basics",
+      "goal": "Explain sessions/tokens and never store plain-text passwords.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "auth-security-v1",
+          "title": "JWT Authentication Explained",
+          "youtubeId": "7Q17ubqLfaM",
+          "youtubeUrl": "https://www.youtube.com/watch?v=7Q17ubqLfaM",
+          "channel": "Web Dev Simplified",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Passwords should be stored as…",
+            "options": [
+              "Plain text",
+              "Salted hashes",
+              "Public URLs",
+              "CSS classes"
+            ],
+            "answerIndex": 1,
+            "videoRef": "7Q17ubqLfaM",
+            "explanation": "Hashing with salt protects credentials."
+          },
+          {
+            "text": "A JWT commonly travels in…",
+            "options": [
+              "An Authorization header",
+              "A favicon",
+              "A print stylesheet",
+              "DNS TXT only"
+            ],
+            "answerIndex": 0,
+            "videoRef": "7Q17ubqLfaM",
+            "explanation": "Bearer tokens are often sent in headers."
+          },
+          {
+            "text": "401 usually means…",
+            "options": [
+              "Unauthorized / not authenticated",
+              "Page found",
+              "Redirect permanently",
+              "Server created"
+            ],
+            "answerIndex": 0,
+            "videoRef": "7Q17ubqLfaM",
+            "explanation": "401 signals authentication is required or failed."
+          }
+        ]
+      },
+      "project": {
+        "title": "Auth flow notes",
+        "description": "Diagram login → token → protected route for a learning app."
+      }
+    },
+    {
+      "id": "validation-errors",
+      "order": 5,
+      "title": "Validation & Errors",
+      "goal": "Validate input and return consistent error payloads.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "validation-errors-v1",
+          "title": "API Design Best Practices",
+          "youtubeId": "-mN3VyJuCjM",
+          "youtubeUrl": "https://www.youtube.com/watch?v=-mN3VyJuCjM",
+          "channel": "Web Dev Simplified",
+          "language": "en",
+          "durationMin": 12
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Input validation belongs…",
+            "options": [
+              "Only on the client",
+              "On the server (client can help UX)",
+              "Nowhere",
+              "Only in CSS"
+            ],
+            "answerIndex": 1,
+            "videoRef": "-mN3VyJuCjM",
+            "explanation": "Server validation is required for security."
+          },
+          {
+            "text": "A clear error body should include…",
+            "options": [
+              "Stack traces for all users",
+              "A machine-readable code and message",
+              "Your private keys",
+              "Nothing"
+            ],
+            "answerIndex": 1,
+            "videoRef": "-mN3VyJuCjM",
+            "explanation": "Clients need actionable, safe error info."
+          },
+          {
+            "text": "400 usually indicates…",
+            "options": [
+              "Bad request from the client",
+              "Success",
+              "Redirect",
+              "Server created a resource"
+            ],
+            "answerIndex": 0,
+            "videoRef": "-mN3VyJuCjM",
+            "explanation": "400 is for invalid client input."
+          }
+        ]
+      },
+      "project": {
+        "title": "Error catalog",
+        "description": "List 6 API errors with status, code, and user-facing message."
+      }
+    },
+    {
+      "id": "backend-deploy",
+      "order": 6,
+      "title": "Deploy & Observe",
+      "goal": "Deploy a small API and know what to log in production.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "backend-deploy-v1",
+          "title": "Deploy Node Apps Overview",
+          "youtubeId": "oykl1Ih9pPw",
+          "youtubeUrl": "https://www.youtube.com/watch?v=oykl1Ih9pPw",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 20
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Environment variables are used for…",
+            "options": [
+              "Secrets and config per environment",
+              "Replacing HTML",
+              "Storing user passwords in git",
+              "Choosing fonts"
+            ],
+            "answerIndex": 0,
+            "videoRef": "oykl1Ih9pPw",
+            "explanation": "Keep secrets out of source control."
+          },
+          {
+            "text": "Health checks help platforms…",
+            "options": [
+              "Know if the app is alive",
+              "Write CSS",
+              "Skip HTTPS",
+              "Delete logs daily without reason"
+            ],
+            "answerIndex": 0,
+            "videoRef": "oykl1Ih9pPw",
+            "explanation": "Orchestrators restart unhealthy instances."
+          },
+          {
+            "text": "Never commit…",
+            "options": [
+              "README files",
+              "API keys and .env secrets",
+              "Public docs",
+              "Open source licenses"
+            ],
+            "answerIndex": 1,
+            "videoRef": "oykl1Ih9pPw",
+            "explanation": "Secrets in git are a common breach path."
+          }
+        ]
+      },
+      "project": {
+        "title": "Deploy checklist",
+        "description": "Write steps: env vars, health route, logs, and rollback plan."
+      }
+    }
+  ]
+}

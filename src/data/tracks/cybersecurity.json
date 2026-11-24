@@ -1,0 +1,260 @@
+{
+  "id": "cybersecurity",
+  "title": "Cybersecurity",
+  "description": "Learn core security concepts: threats, hardening, and defensive thinking for beginners.",
+  "level": "beginner",
+  "stages": [
+    {
+      "id": "sec-mindset",
+      "order": 1,
+      "title": "Security Mindset",
+      "goal": "Describe CIA triad and common threat categories.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "sec-mindset-v1",
+          "title": "Cybersecurity Basics",
+          "youtubeId": "inWWhr5tnEA",
+          "youtubeUrl": "https://www.youtube.com/watch?v=inWWhr5tnEA",
+          "channel": "IBM Technology",
+          "language": "en",
+          "durationMin": 12
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "CIA triad stands for…",
+            "options": [
+              "Confidentiality, Integrity, Availability",
+              "Code, Interface, API",
+              "Cache, Index, Auth",
+              "Client, Internet, Access"
+            ],
+            "answerIndex": 0,
+            "videoRef": "inWWhr5tnEA",
+            "explanation": "The classic security goals."
+          },
+          {
+            "text": "Integrity means…",
+            "options": [
+              "Data is not improperly altered",
+              "Anyone can read secrets",
+              "Systems are always offline",
+              "Fonts stay consistent"
+            ],
+            "answerIndex": 0,
+            "videoRef": "inWWhr5tnEA",
+            "explanation": "Integrity protects correctness of data."
+          },
+          {
+            "text": "A threat actor is…",
+            "options": [
+              "Someone or something that can cause harm",
+              "A CSS framework",
+              "A database index",
+              "A git branch"
+            ],
+            "answerIndex": 0,
+            "videoRef": "inWWhr5tnEA",
+            "explanation": "Threat actors have intent or capability to harm."
+          }
+        ]
+      },
+      "project": {
+        "title": "Threat notes",
+        "description": "List 5 threats relevant to a student web app and map each to CIA."
+      }
+    },
+    {
+      "id": "auth-hardening",
+      "order": 2,
+      "title": "Auth & Hardening Basics",
+      "goal": "Apply password hygiene, MFA concepts, and least privilege.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "auth-hardening-v1",
+          "title": "Authentication vs Authorization",
+          "youtubeId": "3K_e0DqS2jU",
+          "youtubeUrl": "https://www.youtube.com/watch?v=3K_e0DqS2jU",
+          "channel": "IBM Technology",
+          "language": "en",
+          "durationMin": 8
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Authentication verifies…",
+            "options": [
+              "Who you are",
+              "Which CSS loads",
+              "Packet MTU",
+              "Git authors only"
+            ],
+            "answerIndex": 0,
+            "videoRef": "3K_e0DqS2jU",
+            "explanation": "Authn proves identity."
+          },
+          {
+            "text": "Authorization decides…",
+            "options": [
+              "What you are allowed to do",
+              "Your display name font",
+              "CDN region only",
+              "Monitor refresh rate"
+            ],
+            "answerIndex": 0,
+            "videoRef": "3K_e0DqS2jU",
+            "explanation": "Authz controls permissions."
+          },
+          {
+            "text": "Least privilege means…",
+            "options": [
+              "Grant only needed access",
+              "Give admin to everyone",
+              "Disable passwords",
+              "Share one account"
+            ],
+            "answerIndex": 0,
+            "videoRef": "3K_e0DqS2jU",
+            "explanation": "Minimize blast radius."
+          }
+        ]
+      },
+      "project": {
+        "title": "Access matrix",
+        "description": "Define roles student/admin and allowed actions for CareerX."
+      }
+    },
+    {
+      "id": "web-threats",
+      "order": 3,
+      "title": "Common Web Threats",
+      "goal": "Recognize XSS, injection, and insecure storage at a high level.",
+      "estimatedHours": 7,
+      "videos": [
+        {
+          "id": "web-threats-v1",
+          "title": "OWASP Top 10 Overview",
+          "youtubeId": "rWHvp7rUka8",
+          "youtubeUrl": "https://www.youtube.com/watch?v=rWHvp7rUka8",
+          "channel": "IBM Technology",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "XSS typically injects…",
+            "options": [
+              "Malicious scripts into pages",
+              "Extra SQL indexes",
+              "Faster CSS",
+              "Larger images only"
+            ],
+            "answerIndex": 0,
+            "videoRef": "rWHvp7rUka8",
+            "explanation": "Cross-site scripting runs attacker script in victims’ browsers."
+          },
+          {
+            "text": "Injection flaws happen when…",
+            "options": [
+              "Untrusted input is interpreted as code/commands",
+              "Fonts mismatch",
+              "Images are compressed",
+              "Repos are empty"
+            ],
+            "answerIndex": 0,
+            "videoRef": "rWHvp7rUka8",
+            "explanation": "Validate and parameterize inputs."
+          },
+          {
+            "text": "Storing secrets in frontend code is…",
+            "options": [
+              "Dangerous — users can read it",
+              "Best practice",
+              "Required by HTTP",
+              "Safer than hashing"
+            ],
+            "answerIndex": 0,
+            "videoRef": "rWHvp7rUka8",
+            "explanation": "Anything in the client is visible."
+          }
+        ]
+      },
+      "project": {
+        "title": "Top risks card",
+        "description": "Pick 3 OWASP risks and note one mitigation each for CareerX."
+      }
+    },
+    {
+      "id": "blue-team-habits",
+      "order": 4,
+      "title": "Defensive Habits",
+      "goal": "Describe logging, updates, and incident response basics.",
+      "estimatedHours": 6,
+      "videos": [
+        {
+          "id": "blue-team-habits-v1",
+          "title": "Incident Response Basics",
+          "youtubeId": "2J0X0v0gk0A",
+          "youtubeUrl": "https://www.youtube.com/watch?v=2J0X0v0gk0A",
+          "channel": "IBM Technology",
+          "language": "en",
+          "durationMin": 10
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Keeping software updated reduces…",
+            "options": [
+              "Known vulnerability exposure",
+              "Need for backups forever",
+              "All social engineering",
+              "DNS entirely"
+            ],
+            "answerIndex": 0,
+            "videoRef": "2J0X0v0gk0A",
+            "explanation": "Patches close known holes."
+          },
+          {
+            "text": "Incident response starts with…",
+            "options": [
+              "Detecting and containing impact",
+              "Deleting all logs",
+              "Posting passwords publicly",
+              "Ignoring alerts"
+            ],
+            "answerIndex": 0,
+            "videoRef": "2J0X0v0gk0A",
+            "explanation": "Contain first, then eradicate and recover."
+          },
+          {
+            "text": "Useful security logs should be…",
+            "options": [
+              "Retained and reviewed",
+              "Never stored",
+              "Shared with strangers",
+              "Written in invisible ink"
+            ],
+            "answerIndex": 0,
+            "videoRef": "2J0X0v0gk0A",
+            "explanation": "Logs enable detection and forensics."
+          }
+        ]
+      },
+      "project": {
+        "title": "Mini IR playbook",
+        "description": "Write detect → contain → notify → recover steps for a leaked API key."
+      }
+    }
+  ]
+}

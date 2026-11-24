@@ -1,0 +1,425 @@
+{
+  "id": "frontend",
+  "title": "Frontend Development",
+  "description": "Build responsive interfaces with HTML, CSS, JavaScript, and React — from first page to interactive apps.",
+  "level": "beginner",
+  "stages": [
+    {
+      "id": "html-css",
+      "order": 1,
+      "title": "HTML & CSS Basics",
+      "goal": "Build a complete responsive web page with semantic HTML and modern CSS.",
+      "estimatedHours": 10,
+      "videos": [
+        {
+          "id": "html-css-v1",
+          "title": "HTML Crash Course",
+          "youtubeId": "UB1O30fR-EE",
+          "youtubeUrl": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 60
+        },
+        {
+          "id": "html-css-v2",
+          "title": "CSS Crash Course",
+          "youtubeId": "yfoYu3_NfxQ",
+          "youtubeUrl": "https://www.youtube.com/watch?v=yfoYu3_NfxQ",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 85
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Which HTML element is best for the main page heading?",
+            "options": [
+              "<heading>",
+              "<h1>",
+              "<title>",
+              "<header1>"
+            ],
+            "answerIndex": 1,
+            "videoRef": "UB1O30fR-EE",
+            "explanation": "Use a single <h1> for the primary page title."
+          },
+          {
+            "text": "What does CSS stand for?",
+            "options": [
+              "Computer Style Sheets",
+              "Creative Style Syntax",
+              "Cascading Style Sheets",
+              "Colorful Site Styles"
+            ],
+            "answerIndex": 2,
+            "videoRef": "yfoYu3_NfxQ",
+            "explanation": "CSS means Cascading Style Sheets."
+          },
+          {
+            "text": "Which property controls space inside an element’s border?",
+            "options": [
+              "margin",
+              "padding",
+              "gap",
+              "spacing"
+            ],
+            "answerIndex": 1,
+            "videoRef": "yfoYu3_NfxQ",
+            "explanation": "Padding is the inner space between content and border."
+          },
+          {
+            "text": "Semantic HTML helps with…",
+            "options": [
+              "Faster network cables",
+              "Accessibility and SEO",
+              "Database indexing",
+              "GPU rendering only"
+            ],
+            "answerIndex": 1,
+            "videoRef": "UB1O30fR-EE",
+            "explanation": "Meaningful tags improve accessibility and search understanding."
+          }
+        ]
+      },
+      "project": {
+        "title": "Personal landing page",
+        "description": "Ship a responsive one-page site with header, about, and contact sections."
+      }
+    },
+    {
+      "id": "javascript-basics",
+      "order": 2,
+      "title": "JavaScript Fundamentals",
+      "goal": "Write scripts that read the DOM, handle events, and update the UI.",
+      "estimatedHours": 12,
+      "videos": [
+        {
+          "id": "javascript-basics-v1",
+          "title": "JavaScript Crash Course",
+          "youtubeId": "hdI2bqOjy3c",
+          "youtubeUrl": "https://www.youtube.com/watch?v=hdI2bqOjy3c",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 100
+        },
+        {
+          "id": "javascript-basics-v2",
+          "title": "JavaScript DOM Crash Course",
+          "youtubeId": "0ik6X4DJKCc",
+          "youtubeUrl": "https://www.youtube.com/watch?v=0ik6X4DJKCc",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 50
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "Which keyword declares a block-scoped variable you can reassign?",
+            "options": [
+              "var",
+              "let",
+              "const",
+              "define"
+            ],
+            "answerIndex": 1,
+            "videoRef": "hdI2bqOjy3c",
+            "explanation": "let is block-scoped and reassignable; const is not."
+          },
+          {
+            "text": "What does document.querySelector('#app') return?",
+            "options": [
+              "All elements with id app",
+              "The first element with id app",
+              "A CSS rule",
+              "A NodeList of buttons"
+            ],
+            "answerIndex": 1,
+            "videoRef": "0ik6X4DJKCc",
+            "explanation": "querySelector returns the first matching element."
+          },
+          {
+            "text": "addEventListener is used to…",
+            "options": [
+              "Import modules",
+              "Attach a handler to an event",
+              "Create a new HTML file",
+              "Style a button"
+            ],
+            "answerIndex": 1,
+            "videoRef": "0ik6X4DJKCc",
+            "explanation": "It registers a function to run when an event fires."
+          }
+        ]
+      },
+      "project": {
+        "title": "Interactive to-do list",
+        "description": "Add, complete, and remove tasks using only vanilla JavaScript."
+      }
+    },
+    {
+      "id": "responsive-layouts",
+      "order": 3,
+      "title": "Responsive Layouts",
+      "goal": "Lay out pages with Flexbox and Grid that adapt from phone to desktop.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "responsive-layouts-v1",
+          "title": "Flexbox CSS In 20 Minutes",
+          "youtubeId": "JJSoEo88j6U",
+          "youtubeUrl": "https://www.youtube.com/watch?v=JJSoEo88j6U",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 20
+        },
+        {
+          "id": "responsive-layouts-v2",
+          "title": "CSS Grid Crash Course",
+          "youtubeId": "0fKg7e37bQE",
+          "youtubeUrl": "https://www.youtube.com/watch?v=0fKg7e37bQE",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 25
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "justify-content mainly controls alignment on the…",
+            "options": [
+              "Cross axis",
+              "Main axis",
+              "Z-axis",
+              "Page scroll"
+            ],
+            "answerIndex": 1,
+            "videoRef": "JJSoEo88j6U",
+            "explanation": "In Flexbox, justify-content aligns along the main axis."
+          },
+          {
+            "text": "CSS Grid is best when you need…",
+            "options": [
+              "Only horizontal rows",
+              "Two-dimensional layouts",
+              "Database joins",
+              "Server caching"
+            ],
+            "answerIndex": 1,
+            "videoRef": "0fKg7e37bQE",
+            "explanation": "Grid handles rows and columns together."
+          },
+          {
+            "text": "A common mobile-first breakpoint unit is…",
+            "options": [
+              "kbps",
+              "rem / em with media queries",
+              "FPS",
+              "JWT"
+            ],
+            "answerIndex": 1,
+            "videoRef": "0fKg7e37bQE",
+            "explanation": "Responsive design uses media queries with relative units."
+          }
+        ]
+      },
+      "project": {
+        "title": "Responsive product gallery",
+        "description": "Use Grid + Flexbox so cards reflow cleanly at 360px, 768px, and 1200px."
+      }
+    },
+    {
+      "id": "react-basics",
+      "order": 4,
+      "title": "React Basics",
+      "goal": "Build components with props, state, and lists in React.",
+      "estimatedHours": 14,
+      "videos": [
+        {
+          "id": "react-basics-v1",
+          "title": "React JS Crash Course",
+          "youtubeId": "w7ejDZ8STwg",
+          "youtubeUrl": "https://www.youtube.com/watch?v=w7ejDZ8STwg",
+          "channel": "Traversy Media",
+          "language": "en",
+          "durationMin": 110
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "What is the primary way to pass data into a child component?",
+            "options": [
+              "props",
+              "cookies",
+              "localStorage",
+              "CSS variables"
+            ],
+            "answerIndex": 0,
+            "videoRef": "w7ejDZ8STwg",
+            "explanation": "Parents pass data down through props."
+          },
+          {
+            "text": "useState is used to…",
+            "options": [
+              "Fetch CSS files",
+              "Hold component state that triggers re-renders",
+              "Create a database",
+              "Define routes"
+            ],
+            "answerIndex": 1,
+            "videoRef": "w7ejDZ8STwg",
+            "explanation": "Updating state causes React to re-render the component."
+          },
+          {
+            "text": "When rendering a list, each item should usually have a…",
+            "options": [
+              "random color",
+              "stable key",
+              "new CSS file",
+              "global variable"
+            ],
+            "answerIndex": 1,
+            "videoRef": "w7ejDZ8STwg",
+            "explanation": "Keys help React match list items across updates."
+          }
+        ]
+      },
+      "project": {
+        "title": "React track cards",
+        "description": "Render a list of tracks from data with search filtering."
+      }
+    },
+    {
+      "id": "react-routing",
+      "order": 5,
+      "title": "Routing & Multi-page Apps",
+      "goal": "Navigate between views with React Router without full page reloads.",
+      "estimatedHours": 8,
+      "videos": [
+        {
+          "id": "react-routing-v1",
+          "title": "React Router Crash Course",
+          "youtubeId": "Ul3y1LXxzdU",
+          "youtubeUrl": "https://www.youtube.com/watch?v=Ul3y1LXxzdU",
+          "channel": "Net Ninja",
+          "language": "en",
+          "durationMin": 40
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "In React Router, Link is preferred over <a> because it…",
+            "options": [
+              "Loads slower",
+              "Avoids full document reloads",
+              "Only works offline",
+              "Replaces CSS"
+            ],
+            "answerIndex": 1,
+            "videoRef": "Ul3y1LXxzdU",
+            "explanation": "Client-side navigation keeps app state and is faster."
+          },
+          {
+            "text": "A dynamic route like /tracks/:trackId reads params via…",
+            "options": [
+              "useParams",
+              "useCookie",
+              "window.alert",
+              "localStorage"
+            ],
+            "answerIndex": 0,
+            "videoRef": "Ul3y1LXxzdU",
+            "explanation": "useParams exposes path parameters."
+          },
+          {
+            "text": "Routes are typically declared with…",
+            "options": [
+              "<Route>",
+              "<Script>",
+              "<Meta>",
+              "<Canvas>"
+            ],
+            "answerIndex": 0,
+            "videoRef": "Ul3y1LXxzdU",
+            "explanation": "Route maps a path to a page component."
+          }
+        ]
+      },
+      "project": {
+        "title": "Mini multi-page app",
+        "description": "Home, tracks list, and detail routes with a shared layout."
+      }
+    },
+    {
+      "id": "frontend-polish",
+      "order": 6,
+      "title": "State, Forms & Polish",
+      "goal": "Manage form input, feedback states, and accessible UI polish.",
+      "estimatedHours": 10,
+      "videos": [
+        {
+          "id": "frontend-polish-v1",
+          "title": "React Forms & Controlled Inputs",
+          "youtubeId": "IkMND33x0qQ",
+          "youtubeUrl": "https://www.youtube.com/watch?v=IkMND33x0qQ",
+          "channel": "Web Dev Simplified",
+          "language": "en",
+          "durationMin": 15
+        }
+      ],
+      "quiz": {
+        "passingScore": 70,
+        "questions": [
+          {
+            "text": "A controlled input gets its value from…",
+            "options": [
+              "React state",
+              "The server only",
+              "CSS",
+              "The GPU"
+            ],
+            "answerIndex": 0,
+            "videoRef": "IkMND33x0qQ",
+            "explanation": "Value and onChange keep React as the source of truth."
+          },
+          {
+            "text": "Empty, loading, and error UI help users because they…",
+            "options": [
+              "Hide bugs forever",
+              "Explain status and next actions",
+              "Replace tests",
+              "Increase bundle size on purpose"
+            ],
+            "answerIndex": 1,
+            "videoRef": "IkMND33x0qQ",
+            "explanation": "Clear states guide what the user should do next."
+          },
+          {
+            "text": "Focus styles matter most for…",
+            "options": [
+              "Keyboard and assistive tech users",
+              "Print CSS only",
+              "Database indexes",
+              "CDN caching"
+            ],
+            "answerIndex": 0,
+            "videoRef": "IkMND33x0qQ",
+            "explanation": "Visible focus is required for keyboard navigation."
+          }
+        ]
+      },
+      "project": {
+        "title": "Discovery-style form flow",
+        "description": "Multi-step questions with validation and a results screen."
+      }
+    }
+  ]
+}
